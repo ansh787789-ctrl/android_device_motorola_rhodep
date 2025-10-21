@@ -210,6 +210,9 @@ TW_HAS_EDL_MODE := true
 TW_Y_OFFSET := 115
 TW_H_OFFSET := -115
 
+# Touchscreen module path
+TW_LOAD_VENDOR_MODULES := "1.1/nvt_36xxx.ko"
+
 # Props
 TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
